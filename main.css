@@ -1,0 +1,122 @@
+body{
+    background: #F7F7F7;
+    color: #333333;
+    font-size:14px;
+    font-family: 'Source Sans Pro', sans-serif;
+  line-height: 22px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+}
+.container {
+    background: #fff;
+    padding: 0 20px;
+    width: 960px;
+}
+.social-links {
+  clear: both;
+  border-bottom: 1px solid #eee;
+}
+header {
+  background: #FFF;
+  margin-top: 0px;
+}
+.post {
+  margin-bottom: 10px;
+  background: #FFF;
+}
+.title-blue{
+   color: #FFFFFF;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background: #2A6496;
+    margin-bottom: 20px;
+}
+.logo{
+  text-align: center;
+}
+.top-contact {
+    padding-top: 12px;
+}
+.top-contact > li {
+    color: #2A6496;
+    display: inline;
+    list-style: none outside none;
+    padding: 7px;
+}
+.top-contact a{
+    text-decoration: none;
+}
+.size-auto, .size-full, .size-large, .size-medium, .size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+.alignright {
+  float: right;
+}
+.post-detail{
+    padding: 40px 20px;
+}
+.doc-content{
+    padding-top: 20px;
+}
+/*========================
+accordian
+========================*/
+.accordian-panel h1 a, .accordian-panel h2 a,
+.accordian-panel h3 a, .accordian-panel h4 a,
+.accordian-panel h5 a, .accordian-panel h6 a{
+  
+    color: #606060;
+    text-decoration: none;
+    display: block;
+    margin:0;
+    padding: 10px;
+    outline: none;
+}
+.accordian-panel header h4,.accordian-panel header h5,.accordian-panel header h6,.accordian-panel header h6,.accordian-panel header h3,.accordian-panel header h2,.accordian-panel header h1{
+    margin: 0;
+}
+.accordian-panel header{
+    font-size: 14px;
+    background: #F5F5F5;
+    padding: 0;
+    border: 1px solid #ccc;\
+    font-weight: 500;
+}
+.accordian-panel header h4{
+  font-weight: 400;
+}
+
+.accordian-panel .fa{
+    float: right;
+}
+.accordian-panel{margin-bottom: 5px;}
+.accordian-wrapper{
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.accordian-content{
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.doc-content .btn-group {
+    margin-top: 50px;
+}
+.btn {
+    border-radius: 0;
+    padding: 10px 20px;
+}
